@@ -13,5 +13,5 @@ app.use(routes.logs)
 app.use(routes.checks)
 
 app.listen(process.env.PORT, () => {
-    console.log(`listening on ${process.env.PORT}`)
+  console.log(`listening on ${process.env.PORT}`)
 })

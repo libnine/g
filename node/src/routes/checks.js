@@ -1,10 +1,10 @@
 import { Router } from 'express'
-import client from '../index'
+import q from '../db'
 
 const router = Router();
 
 router.get('/checks', (req, res) => {
-    return res.send("checks working")
+  return res.send("checks working")
 })
 
 export default router
