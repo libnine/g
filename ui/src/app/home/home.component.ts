@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  sidebarStatus = true;
+
   constructor() { }
 
   ngOnInit(): void {
+
   }
 
+  sidebarToggler() {
+    this.sidebarStatus = !this.sidebarStatus
+  }
 }

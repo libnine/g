@@ -1,7 +1,7 @@
 <mat-toolbar color="primary">
     <mat-toolbar-row>
-        <button mat-icon-button>
-            <mat-icon>menu</mat-icon>
+        <button mat-icon-button (click)="toggleSidebar()">
+            <mat-icon>{{icon ? 'first_page' : 'last_page'}}</mat-icon>
         </button>
 
         <div fxFlex fxLayout="row" fxLayoutAlign="flex-end">

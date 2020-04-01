@@ -1,10 +1,25 @@
-.profile-card {
-    img {
-        border-radius: 50%;
-        height: 200px;
-        object-fit: cover;
-        width: 200px;
+:host {
+
+    .mat-icon {
+        margin-right: 25px;
+        vertical-align: middle;
     }
-    padding: 0 20px 20px 20px;
-    text-align: center;
+
+    .profile-card {
+        h2, h4 {
+            font-family: 'Inter', sans-serif;
+            font-weight: 100;
+            // font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            border-radius: 50%;
+            height: 200px;
+            object-fit: cover;
+            width: 200px;
+        }
+
+        padding: 0 20px 20px 20px;
+        text-align: center;
+    }
 }

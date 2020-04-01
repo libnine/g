@@ -1,16 +1,16 @@
 <mat-nav-list>
     <div class="profile-card">
         <div class="header">
-            <h2>Matt</h2>
-            <h4>The Developer</h4>
+            <h2><b>Matt</b></h2>
+            <h4>Developer</h4>
         </div>
         <img src="https://d302e0npexowb4.cloudfront.net/wp-content/uploads/2017/02/Snoopy-Peanuts.png" alt="">
     </div>
 
     <mat-divider></mat-divider>
     
-    <a mat-list-item routerLinkActive="list-item-active" routerLink="/">Home</a>
-    <a mat-list-item routerLinkActive="list-item-active" routerLink="/checks">Checks</a>
-    <a mat-list-item routerLinkActive="list-item-active" routerLink="/logs">Logs</a>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/']"><mat-icon>home</mat-icon> Home</a>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/checks']"><mat-icon>done_outline</mat-icon> Checks</a>
+    <a mat-list-item routerLinkActive="list-item-active" [routerLink]="['/logs']"><mat-icon>insert_chart</mat-icon> Logs</a>
 
 </mat-nav-list>
